@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C76D2FD2B6EA8BC00656FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D2FC2B6EA8BC00656FD8 /* AppDelegate.swift */; };
+		6C76D2FF2B6EA8BC00656FD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D2FE2B6EA8BC00656FD8 /* SceneDelegate.swift */; };
+		6C76D3012B6EA8BC00656FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D3002B6EA8BC00656FD8 /* ViewController.swift */; };
+		6C76D3042B6EA8BC00656FD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C76D3022B6EA8BC00656FD8 /* Main.storyboard */; };
+		6C76D3062B6EA8BD00656FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C76D3052B6EA8BD00656FD8 /* Assets.xcassets */; };
+		6C76D3092B6EA8BD00656FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C76D3072B6EA8BD00656FD8 /* LaunchScreen.storyboard */; };
+		6C76D3142B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D3132B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderTests.swift */; };
+		6C76D31E2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D31D2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITests.swift */; };
+		6C76D3202B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D31F2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C76D3102B6EA8BD00656FD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C76D2F12B6EA8BC00656FD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C76D2F82B6EA8BC00656FD8;
+			remoteInfo = "Tartan Hacks StoryBoard Builder";
+		};
+		6C76D31A2B6EA8BD00656FD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C76D2F12B6EA8BC00656FD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C76D2F82B6EA8BC00656FD8;
+			remoteInfo = "Tartan Hacks StoryBoard Builder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C76D2F92B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tartan Hacks StoryBoard Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C76D2FC2B6EA8BC00656FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C76D2FE2B6EA8BC00656FD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C76D3002B6EA8BC00656FD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C76D3032B6EA8BC00656FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C76D3052B6EA8BD00656FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C76D3082B6EA8BD00656FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C76D30A2B6EA8BD00656FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C76D30F2B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tartan Hacks StoryBoard BuilderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C76D3132B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tartan_Hacks_StoryBoard_BuilderTests.swift; sourceTree = "<group>"; };
+		6C76D3192B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tartan Hacks StoryBoard BuilderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C76D31D2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tartan_Hacks_StoryBoard_BuilderUITests.swift; sourceTree = "<group>"; };
+		6C76D31F2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C76D2F62B6EA8BC00656FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C76D30C2B6EA8BD00656FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C76D3162B6EA8BD00656FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C76D2F02B6EA8BC00656FD8 = {
+			isa = PBXGroup;
+			children = (
+				6C76D2FB2B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder */,
+				6C76D3122B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderTests */,
+				6C76D31C2B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderUITests */,
+				6C76D2FA2B6EA8BC00656FD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C76D2FA2B6EA8BC00656FD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C76D2F92B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder.app */,
+				6C76D30F2B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderTests.xctest */,
+				6C76D3192B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C76D2FB2B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder */ = {
+			isa = PBXGroup;
+			children = (
+				6C76D2FC2B6EA8BC00656FD8 /* AppDelegate.swift */,
+				6C76D2FE2B6EA8BC00656FD8 /* SceneDelegate.swift */,
+				6C76D3002B6EA8BC00656FD8 /* ViewController.swift */,
+				6C76D3022B6EA8BC00656FD8 /* Main.storyboard */,
+				6C76D3052B6EA8BD00656FD8 /* Assets.xcassets */,
+				6C76D3072B6EA8BD00656FD8 /* LaunchScreen.storyboard */,
+				6C76D30A2B6EA8BD00656FD8 /* Info.plist */,
+			);
+			path = "Tartan Hacks StoryBoard Builder";
+			sourceTree = "<group>";
+		};
+		6C76D3122B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C76D3132B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderTests.swift */,
+			);
+			path = "Tartan Hacks StoryBoard BuilderTests";
+			sourceTree = "<group>";
+		};
+		6C76D31C2B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C76D31D2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITests.swift */,
+				6C76D31F2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift */,
+			);
+			path = "Tartan Hacks StoryBoard BuilderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C76D2F82B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C76D3232B6EA8BD00656FD8 /* Build configuration list for PBXNativeTarget "Tartan Hacks StoryBoard Builder" */;
+			buildPhases = (
+				6C76D2F52B6EA8BC00656FD8 /* Sources */,
+				6C76D2F62B6EA8BC00656FD8 /* Frameworks */,
+				6C76D2F72B6EA8BC00656FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tartan Hacks StoryBoard Builder";
+			productName = "Tartan Hacks StoryBoard Builder";
+			productReference = 6C76D2F92B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C76D30E2B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C76D3262B6EA8BD00656FD8 /* Build configuration list for PBXNativeTarget "Tartan Hacks StoryBoard BuilderTests" */;
+			buildPhases = (
+				6C76D30B2B6EA8BD00656FD8 /* Sources */,
+				6C76D30C2B6EA8BD00656FD8 /* Frameworks */,
+				6C76D30D2B6EA8BD00656FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C76D3112B6EA8BD00656FD8 /* PBXTargetDependency */,
+			);
+			name = "Tartan Hacks StoryBoard BuilderTests";
+			productName = "Tartan Hacks StoryBoard BuilderTests";
+			productReference = 6C76D30F2B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C76D3182B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C76D3292B6EA8BD00656FD8 /* Build configuration list for PBXNativeTarget "Tartan Hacks StoryBoard BuilderUITests" */;
+			buildPhases = (
+				6C76D3152B6EA8BD00656FD8 /* Sources */,
+				6C76D3162B6EA8BD00656FD8 /* Frameworks */,
+				6C76D3172B6EA8BD00656FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C76D31B2B6EA8BD00656FD8 /* PBXTargetDependency */,
+			);
+			name = "Tartan Hacks StoryBoard BuilderUITests";
+			productName = "Tartan Hacks StoryBoard BuilderUITests";
+			productReference = 6C76D3192B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C76D2F12B6EA8BC00656FD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6C76D2F82B6EA8BC00656FD8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6C76D30E2B6EA8BD00656FD8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6C76D2F82B6EA8BC00656FD8;
+					};
+					6C76D3182B6EA8BD00656FD8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6C76D2F82B6EA8BC00656FD8;
+					};
+				};
+			};
+			buildConfigurationList = 6C76D2F42B6EA8BC00656FD8 /* Build configuration list for PBXProject "Tartan Hacks StoryBoard Builder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C76D2F02B6EA8BC00656FD8;
+			productRefGroup = 6C76D2FA2B6EA8BC00656FD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C76D2F82B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder */,
+				6C76D30E2B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderTests */,
+				6C76D3182B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C76D2F72B6EA8BC00656FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C76D3092B6EA8BD00656FD8 /* LaunchScreen.storyboard in Resources */,
+				6C76D3062B6EA8BD00656FD8 /* Assets.xcassets in Resources */,
+				6C76D3042B6EA8BC00656FD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C76D30D2B6EA8BD00656FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C76D3172B6EA8BD00656FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C76D2F52B6EA8BC00656FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C76D3012B6EA8BC00656FD8 /* ViewController.swift in Sources */,
+				6C76D2FD2B6EA8BC00656FD8 /* AppDelegate.swift in Sources */,
+				6C76D2FF2B6EA8BC00656FD8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C76D30B2B6EA8BD00656FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C76D3142B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C76D3152B6EA8BD00656FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C76D3202B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift in Sources */,
+				6C76D31E2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C76D3112B6EA8BD00656FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C76D2F82B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder */;
+			targetProxy = 6C76D3102B6EA8BD00656FD8 /* PBXContainerItemProxy */;
+		};
+		6C76D31B2B6EA8BD00656FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C76D2F82B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder */;
+			targetProxy = 6C76D31A2B6EA8BD00656FD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C76D3022B6EA8BC00656FD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C76D3032B6EA8BC00656FD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C76D3072B6EA8BD00656FD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C76D3082B6EA8BD00656FD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C76D3212B6EA8BD00656FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C76D3222B6EA8BD00656FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C76D3242B6EA8BD00656FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV3GN7G667;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tartan Hacks StoryBoard Builder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TartanHacks.Tartan-Hacks-StoryBoard-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C76D3252B6EA8BD00656FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV3GN7G667;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tartan Hacks StoryBoard Builder/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TartanHacks.Tartan-Hacks-StoryBoard-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6C76D3272B6EA8BD00656FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV3GN7G667;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TartanHacks.Tartan-Hacks-StoryBoard-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tartan Hacks StoryBoard Builder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tartan Hacks StoryBoard Builder";
+			};
+			name = Debug;
+		};
+		6C76D3282B6EA8BD00656FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV3GN7G667;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TartanHacks.Tartan-Hacks-StoryBoard-BuilderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tartan Hacks StoryBoard Builder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tartan Hacks StoryBoard Builder";
+			};
+			name = Release;
+		};
+		6C76D32A2B6EA8BD00656FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV3GN7G667;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TartanHacks.Tartan-Hacks-StoryBoard-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tartan Hacks StoryBoard Builder";
+			};
+			name = Debug;
+		};
+		6C76D32B2B6EA8BD00656FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PV3GN7G667;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "TartanHacks.Tartan-Hacks-StoryBoard-BuilderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tartan Hacks StoryBoard Builder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C76D2F42B6EA8BC00656FD8 /* Build configuration list for PBXProject "Tartan Hacks StoryBoard Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C76D3212B6EA8BD00656FD8 /* Debug */,
+				6C76D3222B6EA8BD00656FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C76D3232B6EA8BD00656FD8 /* Build configuration list for PBXNativeTarget "Tartan Hacks StoryBoard Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C76D3242B6EA8BD00656FD8 /* Debug */,
+				6C76D3252B6EA8BD00656FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C76D3262B6EA8BD00656FD8 /* Build configuration list for PBXNativeTarget "Tartan Hacks StoryBoard BuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C76D3272B6EA8BD00656FD8 /* Debug */,
+				6C76D3282B6EA8BD00656FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C76D3292B6EA8BD00656FD8 /* Build configuration list for PBXNativeTarget "Tartan Hacks StoryBoard BuilderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C76D32A2B6EA8BD00656FD8 /* Debug */,
+				6C76D32B2B6EA8BD00656FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C76D2F12B6EA8BC00656FD8 /* Project object */;
+}

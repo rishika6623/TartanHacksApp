@@ -15,6 +15,8 @@
 		6C76D2CE2B6E736B00656FD8 /* TartanHacks2024Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D2CD2B6E736B00656FD8 /* TartanHacks2024Tests.swift */; };
 		6C76D2D82B6E736B00656FD8 /* TartanHacks2024UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D2D72B6E736B00656FD8 /* TartanHacks2024UITests.swift */; };
 		6C76D2DA2B6E736B00656FD8 /* TartanHacks2024UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D2D92B6E736B00656FD8 /* TartanHacks2024UITestsLaunchTests.swift */; };
+		6C76D2ED2B6E95FC00656FD8 /* ActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D2EC2B6E95FC00656FD8 /* ActionsView.swift */; };
+		6C76D2EF2B6E9D9B00656FD8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C76D2EE2B6E9D9B00656FD8 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6C76D2D32B6E736B00656FD8 /* TartanHacks2024UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TartanHacks2024UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C76D2D72B6E736B00656FD8 /* TartanHacks2024UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TartanHacks2024UITests.swift; sourceTree = "<group>"; };
 		6C76D2D92B6E736B00656FD8 /* TartanHacks2024UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TartanHacks2024UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C76D2EC2B6E95FC00656FD8 /* ActionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsView.swift; sourceTree = "<group>"; };
+		6C76D2EE2B6E9D9B00656FD8 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		6C76D2B82B6E736A00656FD8 /* TartanHacks2024 */ = {
 			isa = PBXGroup;
 			children = (
+				6C76D2EE2B6E9D9B00656FD8 /* Storyboard.storyboard */,
 				6C76D2B92B6E736A00656FD8 /* TartanHacks2024App.swift */,
 				6C76D2BB2B6E736A00656FD8 /* ContentView.swift */,
+				6C76D2EC2B6E95FC00656FD8 /* ActionsView.swift */,
 				6C76D2BD2B6E736A00656FD8 /* Item.swift */,
 				6C76D2BF2B6E736B00656FD8 /* Assets.xcassets */,
 				6C76D2C12B6E736B00656FD8 /* TartanHacks2024.entitlements */,
@@ -238,6 +244,7 @@
 			files = (
 				6C76D2C42B6E736B00656FD8 /* Preview Assets.xcassets in Resources */,
 				6C76D2C02B6E736B00656FD8 /* Assets.xcassets in Resources */,
+				6C76D2EF2B6E9D9B00656FD8 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C76D2ED2B6E95FC00656FD8 /* ActionsView.swift in Sources */,
 				6C76D2BC2B6E736A00656FD8 /* ContentView.swift in Sources */,
 				6C76D2BE2B6E736A00656FD8 /* Item.swift in Sources */,
 				6C76D2BA2B6E736A00656FD8 /* TartanHacks2024App.swift in Sources */,
@@ -434,6 +442,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -472,6 +481,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -550,6 +560,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TartanHacks.TartanHacks2024UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -572,6 +583,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TartanHacks.TartanHacks2024UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
