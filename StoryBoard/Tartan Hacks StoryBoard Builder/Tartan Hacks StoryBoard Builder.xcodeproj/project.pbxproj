@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		6C76D2FD2B6EA8BC00656FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D2FC2B6EA8BC00656FD8 /* AppDelegate.swift */; };
 		6C76D2FF2B6EA8BC00656FD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D2FE2B6EA8BC00656FD8 /* SceneDelegate.swift */; };
-		6C76D3012B6EA8BC00656FD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D3002B6EA8BC00656FD8 /* ViewController.swift */; };
 		6C76D3042B6EA8BC00656FD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C76D3022B6EA8BC00656FD8 /* Main.storyboard */; };
 		6C76D3062B6EA8BD00656FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C76D3052B6EA8BD00656FD8 /* Assets.xcassets */; };
 		6C76D3092B6EA8BD00656FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C76D3072B6EA8BD00656FD8 /* LaunchScreen.storyboard */; };
 		6C76D3142B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D3132B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderTests.swift */; };
 		6C76D31E2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D31D2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITests.swift */; };
 		6C76D3202B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C76D31F2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift */; };
+		6C9CEF102B6ECA520076A154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CEF0F2B6ECA520076A154 /* ViewController.swift */; };
+		6C9CEF122B6ECA700076A154 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CEF112B6ECA700076A154 /* HomeViewController.swift */; };
+		6C9CEF142B6ECA780076A154 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CEF132B6ECA780076A154 /* LoginViewController.swift */; };
+		6C9CEF162B6EDC5C0076A154 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CEF152B6EDC5C0076A154 /* SignUpViewController.swift */; };
+		6C9CEF182B6EE0310076A154 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CEF172B6EE0310076A154 /* Utilities.swift */; };
+		6C9CEF1A2B6EE79B0076A154 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9CEF192B6EE79B0076A154 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		6C76D2F92B6EA8BC00656FD8 /* Tartan Hacks StoryBoard Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tartan Hacks StoryBoard Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C76D2FC2B6EA8BC00656FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C76D2FE2B6EA8BC00656FD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C76D3002B6EA8BC00656FD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C76D3032B6EA8BC00656FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C76D3052B6EA8BD00656FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C76D3082B6EA8BD00656FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		6C76D3192B6EA8BD00656FD8 /* Tartan Hacks StoryBoard BuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tartan Hacks StoryBoard BuilderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C76D31D2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tartan_Hacks_StoryBoard_BuilderUITests.swift; sourceTree = "<group>"; };
 		6C76D31F2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C9CEF0F2B6ECA520076A154 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C9CEF112B6ECA700076A154 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6C9CEF132B6ECA780076A154 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6C9CEF152B6EDC5C0076A154 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6C9CEF172B6EE0310076A154 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		6C9CEF192B6EE79B0076A154 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,10 @@
 			children = (
 				6C76D2FC2B6EA8BC00656FD8 /* AppDelegate.swift */,
 				6C76D2FE2B6EA8BC00656FD8 /* SceneDelegate.swift */,
-				6C76D3002B6EA8BC00656FD8 /* ViewController.swift */,
 				6C76D3022B6EA8BC00656FD8 /* Main.storyboard */,
+				6C9CEF172B6EE0310076A154 /* Utilities.swift */,
+				6C9CEF192B6EE79B0076A154 /* Constants.swift */,
+				6C9CEF0E2B6ECA2C0076A154 /* ViewControllers */,
 				6C76D3052B6EA8BD00656FD8 /* Assets.xcassets */,
 				6C76D3072B6EA8BD00656FD8 /* LaunchScreen.storyboard */,
 				6C76D30A2B6EA8BD00656FD8 /* Info.plist */,
@@ -125,6 +137,17 @@
 				6C76D31F2B6EA8BD00656FD8 /* Tartan_Hacks_StoryBoard_BuilderUITestsLaunchTests.swift */,
 			);
 			path = "Tartan Hacks StoryBoard BuilderUITests";
+			sourceTree = "<group>";
+		};
+		6C9CEF0E2B6ECA2C0076A154 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C9CEF152B6EDC5C0076A154 /* SignUpViewController.swift */,
+				6C9CEF112B6ECA700076A154 /* HomeViewController.swift */,
+				6C9CEF132B6ECA780076A154 /* LoginViewController.swift */,
+				6C9CEF0F2B6ECA520076A154 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C76D3012B6EA8BC00656FD8 /* ViewController.swift in Sources */,
+				6C9CEF162B6EDC5C0076A154 /* SignUpViewController.swift in Sources */,
+				6C9CEF142B6ECA780076A154 /* LoginViewController.swift in Sources */,
+				6C9CEF182B6EE0310076A154 /* Utilities.swift in Sources */,
+				6C9CEF122B6ECA700076A154 /* HomeViewController.swift in Sources */,
 				6C76D2FD2B6EA8BC00656FD8 /* AppDelegate.swift in Sources */,
+				6C9CEF102B6ECA520076A154 /* ViewController.swift in Sources */,
 				6C76D2FF2B6EA8BC00656FD8 /* SceneDelegate.swift in Sources */,
+				6C9CEF1A2B6EE79B0076A154 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
